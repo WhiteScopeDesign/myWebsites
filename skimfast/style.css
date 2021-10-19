@@ -1,0 +1,935 @@
+body {
+  font-family: "PT Sans", sans-serif;
+}
+#navigation .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+}
+/* ----------- main landing page text start ---------- */
+#heading .container {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 225px;
+}
+#heading .whiteCircle {
+  background-color: white;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+#heading .blueCircle {
+  background-color: #027e85;
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+#heading .uprightline {
+  width: 5px;
+  height: 2.1rem;
+  margin-right: 20px;
+  padding-left: 0;
+  margin-left: 0;
+  box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.2);
+  background-color: #027e85;
+  display: inline-block;
+  border-radius: 1px;
+}
+
+#heading .headingText {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 2rem;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+
+#heading .headingSub {
+  letter-spacing: 0.2rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+/* ----------- main landing page text end ---------- */
+
+/* ----------- main landing page background start -------------- */
+#heading .container-fluid {
+  background-image: url(images/main.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 70vh;
+
+  display: inline-block;
+  z-index: -1;
+}
+/* ----------- main landing page background end -------------- */
+
+/* ----------- navigation start --------------------------- */
+#navigation .navbar-brand {
+  font-family: "PT Sans" sans-serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px black;
+}
+#navigation .whiteCircleMini {
+  background-color: white;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  padding-left: 0;
+  margin-right: 0px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+#navigation .blueCircleMini {
+  background-color: #027e85;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 5px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+#navigation .uprightlineMini {
+  width: 0.1rem;
+  height: 0.9rem;
+  margin-right: 5px;
+  padding-left: 0;
+  margin-left: 5px;
+  box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.2);
+  background-color: #027e85;
+  display: inline-block;
+  border-radius: 0.5px;
+}
+#navigation.navbar {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+#navigation .navbar-nav {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#navigation .navbar-nav .nav-link {
+  color: white;
+}
+#navigation .navbar-nav .nav-link.active {
+  color: #027e85;
+}
+#navLogo {
+  letter-spacing: 0.4rem;
+}
+
+#navigation .navbar-toggler {
+  border-color: white;
+  border-width: 1px;
+}
+#navigation .icon {
+  color: white;
+}
+
+#navigation .navbar-toggler[aria-expanded="true"] {
+  border-color: #027e85 !important;
+  border-width: 2px;
+}
+#navigation .navbar-toggler[aria-expanded="true"] .icon {
+  color: #027e85 !important;
+}
+
+/* -----------  navigation end -------------- */
+
+/* ----------- about us start --------------- */
+#aboutUs .heading-text {
+  color: #027e85;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.6rem;
+  padding-bottom: 5%;
+  padding-top: 2.5%;
+}
+#aboutUs .about-text {
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+}
+#aboutUs .container-fluid {
+  color: white;
+  background-color: black;
+}
+#aboutUs .press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+/* ----------- about us end --------------- */
+
+/* ----------- services start -------------- */
+#services {
+  padding: 5% 10%;
+  background-color: white;
+}
+
+#services .heading-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.6rem;
+}
+#services p.sub-heading {
+  color: slategray;
+  letter-spacing: 0.1rem;
+}
+#services .service-item .service-icon {
+  color: #027e85;
+  height: 9rem;
+  margin-bottom: 3rem;
+}
+.service-item {
+  padding: 5%;
+}
+#services .icon-heading {
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  padding-bottom: 25px;
+}
+
+#services p {
+  font-weight: 700;
+  color: slategray;
+  letter-spacing: 0.1rem;
+}
+
+#services .container.bottom-heading p {
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 700;
+}
+
+#services .mobile-rule {
+  background-color: #027e85;
+  margin-top: 50px;
+  width: 80%;
+  height: 1px;
+}
+/* ----------- services end -------------- */
+
+/* ----------- testimonials start ------------- */
+
+#testimonials {
+  background-color: black;
+  padding: 5% 10%;
+  color: #fff;
+  /* min-height: 650px; */
+}
+
+#testimonials .heading-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.6rem;
+}
+#testimonials .press-image {
+  width: 40%;
+  margin-top: 10%;
+  margin-bottom: 1rem;
+}
+#testimonials .press-image2 {
+  width: 70%;
+  margin-top: 30%;
+  margin-bottom: 3.3rem;
+  padding: 3% 0;
+}
+
+#testimonials .press-image:hover {
+  opacity: 50%;
+}
+#testimonials .press-image2:hover {
+  opacity: 50%;
+}
+#testimonials .rating-text {
+  color: white;
+}
+#testimonials .checked {
+  color: yellow;
+}
+#testimonials .rating-sub-text {
+  font-weight: 400;
+  font-size: 1rem;
+  padding-bottom: 5%;
+}
+#testimonials .rule {
+  background-color: #027e85;
+  width: 100%;
+  height: 1px;
+}
+
+/* --------- testimonials carousel --------------- */
+
+#testimonial-carousel .carousel-text {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+#testimonial-carousel .carousel-press-image {
+  width: 18%;
+  border-radius: 0%;
+  margin: 0 0;
+  margin-right: 10px;
+}
+
+#testimonial-carousel .carousel-press-image2 {
+  width: 35%;
+  border-radius: 0%;
+  padding-bottom: 0px;
+  margin: 0px;
+  margin-right: 10px;
+}
+#testimonial-carousel .container {
+  margin-top: 50px;
+}
+#testimonial-carousel .review-mini-text {
+  color: white;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.carousel-item {
+  padding: 7% 13%;
+  width: 100%;
+}
+
+/* ----------- testimonials end ------------- */
+
+/* ----------- social start ----------------- */
+
+#social {
+  padding: 5% 10%;
+  background-color: #fff;
+}
+#social .heading-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.6rem;
+}
+#social .sub-heading {
+  color: slategray;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+#social .social-icon {
+  color: #027e85;
+  padding: 5% 0;
+}
+#social .social-icon-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+#social .social-icon .fa-9x {
+  font-size: 9rem;
+  margin-bottom: 1rem;
+}
+
+#social i:hover {
+  color: #034447;
+}
+/* ------------- social end ---------------- */
+#contact {
+  padding: 5% 10%;
+  background-color: black;
+}
+#contact .heading-text {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.6rem;
+}
+
+#contact .icon-text {
+  font-weight: 400;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+
+.contact-item {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#contact i {
+  color: #027e85;
+  margin-bottom: 2rem;
+}
+#contact i.fa-9x {
+  font-size: 9rem;
+}
+
+/* ---------- contact icon hover and focused start ------------------ */
+#contact .contact-item:hover i {
+  opacity: 75%;
+  color: rgb(7, 209, 7);
+}
+
+/* ------------ contact icon hover and focused end ----------------- */
+
+/* ------------------ opportunities start -------------------------- */
+
+#opportunities {
+  padding: 5% 10%;
+  background-color: #fff;
+}
+#opportunities .heading-text {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 0.6rem;
+}
+#opportunities .sub-heading {
+  color: slategray;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+#opportunities .oppo-icon {
+  color: #027e85;
+  padding: 5% 0;
+}
+
+#opportunities .oppo-icon .fa-9x {
+  font-size: 9rem;
+  margin-bottom: 1rem;
+}
+
+#opportunities i:hover {
+  opacity: 95%;
+  color: rgb(7, 209, 7);
+}
+/* ------------------ opportunities end ---------------------------- */
+
+/* ------------- footer start ------------------------------------ */
+
+#footer {
+  background-color: black;
+  color: gray;
+  padding-bottom: 10px;
+}
+#footer .main-text {
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding-top: 15px;
+  letter-spacing: 0.1rem;
+}
+#footer .sub-text {
+  font-size: 0.5rem;
+}
+
+#footer a {
+  color: #027e85;
+}
+
+/* --------------- footer end ---------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ---------------------------------- MEDIA QUERIES ------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 350px) and (max-width: 576px) {
+  /*---------------------small phones up to screen size 576px wide ----------------------------------- */
+
+  /* ------- main landing page start ---------------- */
+  #heading .whiteCircle {
+    background-color: white;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  #heading .blueCircle {
+    background-color: #027e85;
+    width: 1.3rem;
+    height: 1.3rem;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+  }
+  #heading .uprightline {
+    width: 3px;
+    height: 1.3rem;
+    margin-right: 2px;
+    padding-left: 0;
+    margin-left: 0;
+    box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.2);
+    background-color: #027e85;
+    display: inline-block;
+    border-radius: 1px;
+  }
+
+  #heading .headingText {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 0.5rem;
+    color: white;
+
+    text-shadow: 2px 2px 5px black;
+  }
+  #heading .headingSub {
+    letter-spacing: 0.1rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  /* --------------------- main landing page end ------------------- */
+
+  /* ------------------------- nav bar start ------------------------*/
+
+  #navigation .navbar-brand {
+    font-family: "PT Sans" sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px black;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  #navigation .whiteCircleMini {
+    background-color: white;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+    padding-left: 0;
+    margin-right: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  #navigation .blueCircleMini {
+    background-color: #027e85;
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-left: 3px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+  }
+  #navigation .uprightlineMini {
+    width: 0.1rem;
+    height: 0.7rem;
+    margin-right: 3px;
+    padding-left: 0;
+    margin-left: 5px;
+    box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.2);
+    background-color: #027e85;
+    display: inline-block;
+    border-radius: 0.5px;
+  }
+
+  /* ---------------------------- nav bar end ------------------------- */
+
+  /* --------------------------- about us start ----------------------- */
+  #aboutUs .heading-text {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
+  #aboutUs .press-logo {
+    width: 12%;
+    margin: 5px 5px 25px;
+  }
+
+  /* --------------------------- about us end --------------------------- */
+
+  /* --------------------------- services start ------------------------- */
+
+  #services .heading-text {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
+  #services .service-item .service-icon {
+    height: 7rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #services .container.bottom-heading p {
+    font-size: 0.7rem;
+    color: black;
+    font-weight: 700;
+  }
+
+  /* ------------------------- services start end -------------------------- */
+
+  /* ---------- ----------------testimonials start ------------------------- */
+
+  #testimonials .heading-text {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+  }
+  #testimonials .press-image {
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 1rem;
+  }
+  #testimonials .press-image2 {
+    width: 80%;
+    margin-top: 30%;
+    margin-bottom: 3.3rem;
+    padding: 3% 0;
+  }
+
+  #testimonials .carousel-text {
+    font-size: 1rem;
+  }
+  #testimonial-carousel .container {
+    margin-top: 25px;
+  }
+  #testimonials .review-mini-text {
+    font-size: 0.5rem;
+  }
+  #testimonials .carousel-press-image {
+    width: 18%;
+  }
+  #testimonials .carousel-press-image2 {
+    width: 35%;
+  }
+
+  /* ----------------------- testimonials end ---------------------------- */
+
+  /* ------------------------- social start ------------------------------ */
+
+  #social .heading-text {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+  }
+  #social .social-icon.fa-9x {
+    font-size: 5rem;
+  }
+  /* --------------------------- social end ----------------------------- */
+
+  /* --------------------------- contact start -------------------------- */
+
+  #contact .heading-text {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 50px;
+  }
+  #contact i.fa-9x {
+    font-size: 5em;
+  }
+
+  /* ------------------------------ contact end -------------------------- */
+
+  /* ---------------------- opportunities start -------------------------- */
+
+  #opportunities .heading-text {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+  }
+  #opportunities .sub-heading {
+    color: slategray;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0rem;
+  }
+
+  #opportunities .oppo-icon.fa-9x {
+    font-size: 5em;
+    margin-bottom: 1rem;
+  }
+  /* ---------------------- opportunities end -------------------------- */
+  /* ---------------------- footer start ------------------------------- */
+
+  #footer .main-text {
+    color: white;
+    font-weight: 700;
+    font-size: 0.5rem;
+    letter-spacing: 0rem;
+    padding-top: 15px;
+  }
+  /* ---------------------- footer end --------------------------------- */
+}
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ---------------------------------- MEDIA QUERIES ------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+  #services hr {
+    display: none;
+  }
+}
+/* --------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  /*----------------------- phones  up to screen size 768px wide ------------------------------------- */
+  /* ------- main landing page start ---------------- */
+  #heading .whiteCircle {
+    background-color: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 8px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  #heading .blueCircle {
+    background-color: #027e85;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+  }
+  #heading .uprightline {
+    width: 3px;
+    height: 2rem;
+    margin-right: 4px;
+    padding-left: 0;
+    margin-left: 0;
+    box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.2);
+    background-color: #027e85;
+    display: inline-block;
+    border-radius: 1px;
+  }
+
+  #heading .headingText {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+    letter-spacing: 1.2rem;
+    color: white;
+
+    text-shadow: 2px 2px 5px black;
+  }
+  #heading .headingSub {
+    letter-spacing: 0.1rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  /* --------------------- main landing page end ------------------- */
+
+  /* ------------------------- nav bar start ------------------------*/
+
+  #navigation .navbar-brand {
+    font-family: "PT Sans" sans-serif;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px black;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+  }
+  #navigation .whiteCircleMini {
+    background-color: white;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 3px;
+    padding-left: 0;
+    margin-right: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  #navigation .blueCircleMini {
+    background-color: #027e85;
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-left: 3px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: inline-block;
+  }
+  #navigation .uprightlineMini {
+    width: 0.1rem;
+    height: 0.7rem;
+    margin-right: 3px;
+    padding-left: 0;
+    margin-left: 5px;
+    box-shadow: 3px 2px 3px 1px rgba(0, 0, 0, 0.2);
+    background-color: #027e85;
+    display: inline-block;
+    border-radius: 0.5px;
+  }
+
+  /* ---------------------------- nav bar end ------------------------- */
+
+  /* --------------------------- about us start ----------------------- */
+  #aboutUs .heading-text {
+    font-size: 2.2rem;
+    letter-spacing: 0.4rem;
+  }
+  #aboutUs .press-logo {
+    width: 12%;
+    margin: 10px 8px 35px;
+  }
+
+  /* --------------------------- about us end --------------------------- */
+
+  /* --------------------------- services start ------------------------- */
+
+  #services .heading-text {
+    font-size: 2.2rem;
+    letter-spacing: 0.4rem;
+  }
+  #services .service-item .service-icon {
+    height: 8rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #services .container.bottom-heading p {
+    font-size: 0.9rem;
+    color: black;
+    font-weight: 700;
+  }
+
+  /* ------------------------- services start end -------------------------- */
+
+  /* ---------- ----------------testimonials start ------------------------- */
+
+  #testimonials .heading-text {
+    font-size: 2.2rem;
+    letter-spacing: 0.4rem;
+  }
+  #testimonials .press-image {
+    width: 60%;
+    margin-top: 10%;
+    margin-bottom: 1rem;
+  }
+  #testimonials .press-image2 {
+    width: 80%;
+    margin-top: 30%;
+    margin-bottom: 3.3rem;
+    padding: 3% 0;
+  }
+
+  #testimonials .carousel-text {
+    font-size: 1.5rem;
+  }
+
+  #testimonials .review-mini-text {
+    font-size: 0.6rem;
+  }
+  #testimonials .carousel-press-image {
+    width: 18%;
+  }
+  #testimonials .carousel-press-image2 {
+    width: 35%;
+  }
+
+  /* ----------------------- testimonials end ---------------------------- */
+
+  /* ------------------------- social start ------------------------------ */
+
+  #social .heading-text {
+    font-size: 2.2rem;
+    letter-spacing: 0.4rem;
+  }
+  #social .social-icon.fa-9x {
+    font-size: 7rem;
+  }
+  /* --------------------------- social end ----------------------------- */
+
+  /* --------------------------- contact start -------------------------- */
+
+  #contact .heading-text {
+    font-size: 2.2rem;
+    letter-spacing: 0.4rem;
+    margin-bottom: 50px;
+  }
+  #contact i.fa-9x {
+    font-size: 7em;
+  }
+
+  /* ------------------------------ contact end -------------------------- */
+
+  /* ---------------------- opportunities start -------------------------- */
+
+  #opportunities .heading-text {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+  }
+  #opportunities .sub-heading {
+    color: slategray;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  #opportunities .oppo-icon.fa-9x {
+    font-size: 7em;
+    margin-bottom: 1rem;
+  }
+  /* ---------------------- opportunities end -------------------------- */
+  /* ---------------------- footer start ------------------------------- */
+
+  #footer .main-text {
+    color: white;
+    font-weight: 700;
+    font-size: 0.7rem;
+    letter-spacing: 0rem;
+    padding-top: 15px;
+  }
+  /* ---------------------- footer end --------------------------------- */
+}
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ---------------------------------- MEDIA QUERIES ------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+
+/* --------------------------- about us start ----------------------- */
+
+#aboutUs .press-logo {
+  width: 12%;
+  margin: 10px 10px 25px;
+}
+
+/* --------------------------- about us end --------------------------- */
+/* ---------- ----------------testimonials start ---------------------- */
+
+#testimonials .press-image {
+  width: 55%;
+  margin-top: 10%;
+  margin-bottom: 1rem;
+}
+#testimonials .press-image2 {
+  width: 75%;
+  margin-top: 30%;
+  margin-bottom: 3.3rem;
+  padding: 3% 0;
+}
+
+/* ----------------------- testimonials end ---------------------------- */
+
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ---------------------------------- MEDIA QUERIES ------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* --------------------------- about us start ----------------------- */
+
+  #aboutUs .press-logo {
+    width: 12%;
+    margin: 10px 10px 25px;
+  }
+}
+/* --------------------------- about us end --------------------------- */
