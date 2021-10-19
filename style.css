@@ -28,6 +28,7 @@ body {
 
 #navigation .nav-link {
   color: white;
+  outline: none;
 }
 #navigation .nav-link:hover {
   color: orangered;
