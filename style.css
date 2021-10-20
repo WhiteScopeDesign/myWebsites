@@ -48,6 +48,29 @@ body {
   color: orangered;
   transition: 1s ease-in;
 }
+/* skills - page --  */
+
+#skills-landing .html-icon {
+  font-size: 10rem;
+  color: #e34c26;
+}
+#skills-landing .css-icon {
+  font-size: 10rem;
+  color: #264de4;
+}
+#skills-landing .bootstrap-icon {
+  font-size: 10rem;
+  color: #563d7c;
+}
+#skills-landing .js-icon {
+  font-size: 10rem;
+  color: #f0db4f;
+}
+#skills-landing .star-icon {
+  font-size: 1rem;
+  color: gold;
+}
+
 /* -------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------- */
 /* -----------------------------   Media Queries   -------------------------------------- */
@@ -59,6 +82,25 @@ body {
 @media screen and (min-width: 300px) and (max-width: 576px) {
   .landing-head {
     font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 753px) {
+  #skills-landing .html-icon {
+    font-size: 5rem;
+    color: #e34c26;
+  }
+  #skills-landing .css-icon {
+    font-size: 5rem;
+    color: #264de4;
+  }
+  #skills-landing .bootstrap-icon {
+    font-size: 5rem;
+    color: #563d7c;
+  }
+  #skills-landing .js-icon {
+    font-size: 5rem;
+    color: #f0db4f;
   }
 }
 
