@@ -1,6 +1,6 @@
 body {
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
 #landing .image {
@@ -12,10 +12,9 @@ body {
   align-items: center;
   text-align: center;
   position: relative;
-  z-index: 0;
+  /* z-index: 0; */
 }
-
-/* #landing .skills-image {
+#skills-landing .skills-img {
   width: 100%;
   height: 100vh;
   background: url("./images/skills-img.jpg") center no-repeat;
@@ -24,9 +23,11 @@ body {
   align-items: center;
   text-align: center;
   position: relative;
-  z-index: 0;
-} */
-/*  ^^ will add a skills page at a later stage ^^ */
+  padding-bottom: 0px;
+  padding-top: 10%;
+  margin-bottom: 0;
+}
+
 #navigation .nav-link {
   color: white;
   outline: none;
@@ -79,33 +80,72 @@ body {
 .landing-head {
   font-size: 8rem;
 }
-@media screen and (min-width: 300px) and (max-width: 576px) {
-  .landing-head {
-    font-size: 4rem;
-  }
-}
 
-@media screen and (min-width: 300px) and (max-width: 753px) {
+@media screen and (min-width: 300px) and (max-width: 577px) {
+  .landing-head {
+    font-size: 3rem;
+  }
   #skills-landing .html-icon {
-    font-size: 5rem;
+    font-size: 3rem;
     color: #e34c26;
   }
   #skills-landing .css-icon {
-    font-size: 5rem;
+    font-size: 3rem;
     color: #264de4;
   }
   #skills-landing .bootstrap-icon {
-    font-size: 5rem;
+    font-size: 3rem;
     color: #563d7c;
   }
   #skills-landing .js-icon {
-    font-size: 5rem;
+    font-size: 3rem;
     color: #f0db4f;
+  }
+  #skills-landing h2 {
+    font-size: 1.3rem;
+  }
+  #skills-landing p {
+    font-size: 0.6rem;
+  }
+  #skills-landing .star-icon {
+    font-size: 0.6rem;
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 1400px) {
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+/* -----------------------  Media queries ------------------------------------------------*/
+/* -------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 577px) and (max-width: 1400px) {
   .landing-head {
     font-size: 6rem;
+  }
+
+  #skills-landing .html-icon {
+    font-size: 6rem;
+    color: #e34c26;
+  }
+  #skills-landing .css-icon {
+    font-size: 6rem;
+    color: #264de4;
+  }
+  #skills-landing .bootstrap-icon {
+    font-size: 6rem;
+    color: #563d7c;
+  }
+  #skills-landing .js-icon {
+    font-size: 6rem;
+    color: #f0db4f;
+  }
+  #skills-landing h2 {
+    font-size: 1.6rem;
+  }
+  #skills-landing p {
+    font-size: 0.9rem;
+  }
+  #skills-landing .star-icon {
+    font-size: 0.9rem;
   }
 }
