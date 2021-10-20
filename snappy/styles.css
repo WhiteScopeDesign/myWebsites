@@ -1,0 +1,599 @@
+body {
+  font-family: Montserrat;
+  background-color: #eeeeee;
+}
+body h2 {
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  padding-bottom: 1rem;
+}
+
+body p {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+#navigation .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+}
+
+/* -------- Mobile first below 560 -----------------------------  */
+
+/* ---------------- nav bar start ---------------*/
+
+#navigation .navbar-brand {
+  font-weight: 700;
+  text-shadow: 2px 2px 5px black;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
+
+#navigation.navbar {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+#navigation .navbar-nav {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+#navigation .navbar-nav .nav-link {
+  color: white;
+}
+#navigation .navbar-nav .nav-link:hover {
+  color: slategray;
+}
+#navigation .navbar-nav .nav-link.active {
+  color: orangered;
+}
+/* #navLogo {
+  letter-spacing: 0.4rem;
+} */
+
+#navigation .navbar-toggler {
+  border-color: white;
+  border-width: 1px;
+}
+#navigation .icon {
+  color: white;
+}
+
+#navigation .navbar-toggler[aria-expanded="true"] {
+  border-color: orangered !important;
+  border-width: 2px;
+}
+#navigation .navbar-toggler[aria-expanded="true"] .icon {
+  color: orangered !important;
+}
+#navigation .myNav {
+  background-color: transparent;
+  transition: 1.5s;
+}
+#navigation .nav-scrolled {
+  background-color: rgb(37, 35, 35);
+  opacity: 0.9;
+  transition: 1.2s;
+}
+/* ------------ nav bar end ------------------ */
+/* ------- main landing page text page start ---------------- */
+
+#heading .headingText {
+  font-weight: 600;
+  font-size: rem;
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  color: white;
+
+  text-shadow: 2px 2px 5px black;
+}
+#heading .headingSub {
+  letter-spacing: 0.1rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 1rem;
+  font-weight: 700;
+}
+#heading .container {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 225px;
+}
+
+/* --------------------- main landing page text end -------------- */
+
+/* ----------- main landing page background start -------------- */
+#heading .container-fluid {
+  background-image: url(image/cam-landing.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 70vh;
+
+  display: inline-block;
+  z-index: -1;
+}
+/* ----------- main landing page background end -------------- */
+
+/* ----------- about us start --------------- */
+#about h2 {
+  padding-top: 10%;
+  padding-bottom: 0;
+}
+#aboutUs .about-text {
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
+}
+#about .container-fluid {
+  color: black;
+  /* padding-bottom: %; */
+  /* margin-bottom: -1px; */
+  background-color: #eeeeee;
+}
+#about .image-item {
+  margin-bottom: 10%;
+  margin-top: 5%;
+  border-radius: 30px;
+}
+#about hr {
+  width: 10rem;
+}
+
+/* ----------- about us end --------------- */
+
+/* ----------- Gallery start -------------- */
+#gallery .main {
+  min-height: 100%;
+  padding-top: 0%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+#gallery h2 {
+  padding-top: 5%;
+  padding-bottom: 0;
+}
+#gallery hr {
+  width: 10rem;
+}
+#gallery .image-item {
+  border-radius: 30px;
+  padding: 10px 0px;
+  margin-bottom: 0px !important;
+}
+
+#gallery .image {
+  padding: 5px 5px;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+#gallery .middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: relative;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#gallery .image:hover .image-item {
+  opacity: 0.8;
+  transition: 0.7s;
+  transition-delay: 0.15s;
+}
+
+#gallery .image:hover .middle {
+  position: relative;
+  bottom: 50%;
+  left: 50%;
+  opacity: 1;
+  transition: 2s;
+}
+
+#gallery .image:hover .text:hover {
+  opacity: 1;
+  color: black;
+}
+
+#gallery .text {
+  color: white;
+  font-size: 2rem;
+  padding: 16px 32px;
+  font-weight: 600;
+}
+#gallery a {
+  text-decoration: none;
+}
+#gallery .main-gallery {
+  /* padding-top: 2.5%; */
+  padding-bottom: 2.5%;
+  margin-bottom: -1px;
+  /* ^^ removes line between divs of same color */
+}
+
+#gallery {
+  background-color: #7a7265;
+}
+
+/* ----------- Gallery end ------------- */
+
+/* ----------- social start ------------ */
+
+#social .main-social {
+  background-color: #7a7265;
+  min-height: 100%;
+  padding-bottom: 5%;
+  padding-top: 2.5%;
+  margin-top: 0px !important;
+}
+#social hr {
+  width: 15rem;
+}
+
+#social .social-icon-fb {
+  font-size: 4rem;
+  color: #4267b2;
+  padding: 5% 0;
+}
+#social .social-icon-inst {
+  font-size: 4rem;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  /* Also define standard property for compatibility */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); */
+  padding: 5% 0;
+}
+#social .social-icon-pin {
+  font-size: 4rem;
+  color: #c8232c;
+  padding: 5% 0;
+}
+#social .social-icon-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+}
+
+/* #social .social-icon-fb {
+  font-size: 9rem;
+  margin-bottom: 1rem;
+} */
+
+#social i:hover {
+  opacity: 0.5;
+}
+/* ------------- social end ------------ */
+
+/* ---------- contact icon hover and focused start ------------------ */
+
+#contact .main-img {
+  background-image: url(./image/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  /* display: inline-block;
+  z-index: -1; */
+  background-attachment: fixed;
+}
+
+#contact .contact-text {
+  min-height: 100%;
+  max-height: 100%;
+}
+#contact h2 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#contact p {
+  padding-bottom: 2rem;
+}
+/* #contact .sub-head-text {
+  padding-left: 10rem;
+  padding-right: 10rem;
+} */
+
+#contact hr {
+  width: 15rem;
+}
+#contact .contact-icon {
+  padding-top: 1rem;
+}
+#contact .contact-item:hover {
+  opacity: 0.5;
+}
+#contact .icon-text {
+  padding-top: 1rem;
+}
+#contact .mobile {
+  font-size: 4rem;
+  color: black;
+}
+#contact .text-msg {
+  font-size: 4rem;
+  color: #25d366;
+}
+#contact .email {
+  font-size: 4rem;
+  color: black;
+}
+
+/* ------------ contact end ----------------- */
+
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ---------------------------------- MEDIA QUERIES ------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 977px) {
+  body h2 {
+    font-size: 1.8rem;
+
+    letter-spacing: 0.2rem;
+    padding-bottom: 1rem;
+  }
+
+  body p {
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+  }
+  #heading .headingText {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+    color: white;
+
+    text-shadow: 2px 2px 5px black;
+  }
+  #heading .headingSub {
+    font-family: Montserrat;
+    letter-spacing: 0.2rem;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  /* ----------- about us start --------------- */
+
+  #about hr {
+    width: 12.5rem;
+  }
+
+  /* ----------- about us end --------------- */
+
+  /* ----------- Gallery start -------------- */
+
+  #gallery hr {
+    width: 12.5rem;
+  }
+  #gallery .image-item {
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin-bottom: 0px !important;
+  }
+
+  #gallery .image {
+    padding: 5px 10px;
+    opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+
+  #gallery .text {
+    color: white;
+    font-size: 1.2rem;
+    padding: 16px 32px;
+    font-weight: 600;
+  }
+
+  /* ----------- Gallery end ------------- */
+
+  /* ----------- social start ------------ */
+
+  #social .main-social {
+    background-color: #7a7265;
+    min-height: 100%;
+    padding-bottom: 5%;
+    padding-top: 2.5%;
+    margin-top: 0px !important;
+  }
+  #social hr {
+    width: 47rem;
+  }
+
+  #social .social-icon-fb {
+    font-size: 6rem;
+    color: #4267b2;
+    padding: 5% 0;
+  }
+  #social .social-icon-inst {
+    font-size: 6rem;
+  }
+  #social .social-icon-pin {
+    font-size: 6rem;
+  }
+  #social .social-icon-heading {
+    font-weight: 700;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+  }
+
+  /* ------------- social end ------------ */
+  /* ---------- contact icon hover and focused start ------------------ */
+
+  /* #contact .sub-head-text {
+  padding-left: 10rem;
+  padding-right: 10rem;
+} */
+
+  #contact hr {
+    width: 20rem;
+  }
+  #contact .contact-icon {
+    padding-top: 1rem;
+  }
+  #contact .contact-item:hover {
+    opacity: 0.5;
+  }
+  #contact .icon-text {
+    padding-top: 1rem;
+  }
+  #contact .mobile {
+    font-size: 6rem;
+  }
+  #contact .text-msg {
+    font-size: 6rem;
+  }
+  #contact .email {
+    font-size: 6rem;
+  }
+
+  /* ------------ contact end ----------------- */
+}
+
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+
+@media screen and (min-width: 1400px) {
+  body h2 {
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+    padding-bottom: 1rem;
+  }
+
+  body p {
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+  }
+  /* ----------- about us start --------------- */
+
+  #about .container-fluid {
+    color: black;
+    height: 100%;
+    padding-top: 1.3%;
+    /* padding-bottom: %; */
+    /* margin-bottom: -1px; */
+    background-color: #eeeeee;
+  }
+
+  #about hr {
+    width: 15rem;
+  }
+
+  /* ----------- about us end --------------- */
+
+  /* ----------- Gallery start -------------- */
+
+  #gallery hr {
+    width: 15rem;
+  }
+  #gallery .image-item {
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin-bottom: 0px !important;
+  }
+
+  #gallery .image {
+    padding: 5px 10px;
+    opacity: 1;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+
+  #gallery .text {
+    color: white;
+    font-size: 1.5rem;
+    padding: 16px 32px;
+    font-weight: 600;
+  }
+
+  /* ----------- Gallery end ------------- */
+
+  /* ----------- social start ------------ */
+
+  #social .main-social {
+    background-color: #7a7265;
+    min-height: 100%;
+    padding-bottom: 5%;
+    padding-top: 2.5%;
+    margin-top: 0px !important;
+  }
+  #social hr {
+    width: 65rem;
+  }
+
+  #social .social-icon-fb {
+    font-size: 8rem;
+    color: #4267b2;
+    padding: 5% 0;
+  }
+  #social .social-icon-inst {
+    font-size: 8rem;
+  }
+  #social .social-icon-pin {
+    font-size: 8rem;
+  }
+  #social .social-icon-heading {
+    font-weight: 700;
+    font-size: 1.9rem;
+    letter-spacing: 0.2rem;
+  }
+
+  /* ------------- social end ------------ */
+  /* ---------- contact icon hover and focused start ------------------ */
+
+  /* #contact .sub-head-text {
+  padding-left: 10rem;
+  padding-right: 10rem;
+} */
+
+  #contact hr {
+    width: 30rem;
+  }
+  #contact .contact-icon {
+    padding-top: 1rem;
+  }
+  #contact .contact-item:hover {
+    opacity: 0.5;
+  }
+  #contact .icon-text {
+    padding-top: 1rem;
+  }
+  #contact .mobile {
+    font-size: 8rem;
+  }
+  #contact .text-msg {
+    font-size: 8rem;
+  }
+  #contact .email {
+    font-size: 8rem;
+  }
+
+  /* ------------ contact end ----------------- */
+}
